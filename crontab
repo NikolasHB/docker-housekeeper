@@ -1,0 +1,2 @@
+0 2 * * * find /logshare -name ".log" -type f -mtime +30 -exec rm -f {} \; >> /dev/stdout 2>&1
+#crontab requires an empty line at the eof
